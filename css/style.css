@@ -1,0 +1,311 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+}
+header{
+    display: flex; 
+    height: 100px;  
+}
+.logo{
+   margin-top: 30px;
+   margin-left: 250px;
+}
+ul{
+    display: flex; 
+    justify-content: right;
+    list-style-type: none;
+    gap: 30px;
+    margin-top: 40px;
+    margin-left: 250px;  
+}
+.Home{
+    color: rgba(112, 109, 109, 0.489);
+}
+.menubar{
+    width: 1200px;
+   margin-right: 250px;
+}
+.hr5{
+    margin-top: 50px;
+}
+.hr6{
+    margin-top: 150px;
+}
+
+.section1{
+    display: flex;
+    height: 600px;
+    gap: 30px;
+    margin-top: 50px;
+    justify-content: space-around;
+    color: white;
+}
+.section1 p{
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.882);
+ 
+}
+.button1{
+    border: solid 2px white;
+    background: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+}
+.content{
+   background-image: url(../Img/left-banner-image.jpg);
+    flex:1; 
+    margin-left: 20px;
+ }
+ h1{
+    font-size: 50px;  
+   margin-top: 250px;
+ }
+ .content h1,button{
+    margin-left: 120px;
+ }
+ .hint{
+    margin-left: 120px;
+ }
+.allcategories{  
+    display: grid;
+    grid-template-columns: auto auto;
+    flex:1;
+    gap: 30px;
+   text-align: center;
+    margin-right: 20px;
+}
+.allcategories h2{
+  margin-top: 120px;
+  
+}
+#item1{
+    background-image: url(../Img/baner-right-image-01.jpg);
+  
+}
+#item2{
+    background-image: url(../Img/baner-right-image-02.jpg);
+}
+#item3{
+    background-image: url(../Img/baner-right-image-03.jpg);
+}
+#item4{
+    background-image: url(../Img/baner-right-image-04.jpg);
+}
+.section2 img{
+    width: 300px;
+}
+.men,.women,.kids,.socialmedia{
+    margin-top: 100px;
+    margin-left: 270px;
+}
+
+h2{
+    font-size: 30px;
+}
+.section2 p{
+    font-style: italic;
+    color: rgba(128, 128, 128, 0.832);
+}
+
+.mensitem,.womensitem,.kidsitem{
+    display: flex;  
+}
+.mensitem {
+    margin-top: 50px;
+    justify-content: center;
+    height: 300px;
+    gap: 25px;
+}
+
+.mensitem  h3,.womensitem h3,.kidsitem h3{
+    margin-top: 20px;
+}
+.womensitem {
+    margin-top: 50px;
+    justify-content: center;
+    height: 300px;
+    gap: 25px;
+}
+
+.kidsitem {
+    margin-top: 50px;
+    justify-content: center;
+    height: 300px;
+    gap: 25px;}
+.section3{
+   display: flex;
+  
+}
+.part1{
+    margin-top: 80px;
+    margin-left: 280px;
+    width: 390px;
+   
+
+}
+.part1 p{
+    margin-top: 25px;
+    font-size: 12px;
+    color: rgba(112, 109, 109, 0.812);
+}
+button{
+    border: solid 1px black;
+    background: none;
+    color: black;
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    
+}
+
+.part h5{
+    
+}  
+
+.part2{
+    width: 470px;
+    height: 420px;
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+   margin-top: 100px;
+}   
+.box1{
+    background-color:rgba(133, 130, 130, 0.114);
+   
+
+}.box2{
+    background-image: url(../Img/explore-image-01.jpg);
+    background-size: cover;
+    
+    
+
+}.box3{
+    background-image: url(../Img/explore-image-02.jpg);
+    background-size: cover;
+    
+}.box4{
+    background-color: rgba(133, 130, 130, 0.114);
+ 
+}
+.part2 h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 70px;
+}
+.part2 p{
+    font-style: italic;
+    color: rgba(112, 109, 109, 0.812);
+    font-size: small;
+    text-align: center; 
+
+}
+.posts{
+    margin-top: 50px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto;
+    height: 150px;
+ margin-left: 270px;
+}
+.post1{
+  background-image: url(../Img/instagram-01.jpg);
+  background-size: cover;
+ 
+}
+.post2{
+    background-image: url(../Img/instagram-02.jpg);
+    background-size: cover;
+}
+.post3{
+    background-image: url(../Img/instagram-03.jpg);
+    background-size: cover;
+}
+.post4{
+    background-image: url(../Img/instagram-04.jpg);
+    background-size: cover;
+}
+.post5{
+    background-image: url(../Img/instagram-05.jpg);
+    background-size: cover;
+}
+.post6{
+    background-image: url(../Img/instagram-06.jpg);
+    background-size: cover;}
+    .subscribtion{
+        display: flex;
+    }
+    .subsection{
+        display: flex;
+
+    }
+.info{
+ flex: 1;
+    margin-left: 270px;
+    margin-top: 100px;
+}
+.contact{
+    display: flex;
+    flex: 1;
+    margin-top: 100px;
+}
+.contact div{
+    flex: 1;
+}
+footer{
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.833);
+    height: 500px;
+    display: flex;
+    color: white;
+}
+footer p{
+    
+    margin-top: 20px;
+    font-size: 14px; 
+}
+
+.AandS{
+    flex: 1;
+    display: flex;
+   
+   gap: 100px;
+   margin-top: 50px;
+}
+ .Address{
+    width: 400px;
+    flex: 1;
+   margin-left: 250px;
+   margin-top: 50px; 
+}
+.ShoppingandCategories{ 
+flex: 1;
+margin-top: 50px;
+}
+.UandH{
+    flex: 1;
+    display: flex;
+   gap: 50px;
+
+width: 500px;
+    margin-top: 50px;
+}
+.UsefulLinks{ 
+    flex: 1;
+    margin-top: 50px;
+}
+.HelpandInformation{ 
+    flex: 1;
+margin-top: 50px; 
+margin-right: 250px;
+}
+.copyright{
+    margin-top: 400px;
+  width: 300px;
+   margin-right: 500px;
+}
